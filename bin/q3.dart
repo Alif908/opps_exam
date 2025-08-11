@@ -11,7 +11,7 @@ class Product {
   }
 
   set price(double newprice) {
-    if (newprice < 0) {
+    if (newprice > 0) {
       newprice = _price;
     } else {
       print("invalid number,old price$_price");
