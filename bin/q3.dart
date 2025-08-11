@@ -30,9 +30,9 @@ void main(List<String> args) {
   print("price:${p1.price}");
   print("Price With Tax:${p1.priceWithTax}");
 
-  //setter positive
-p1.price=50;
+  //setter 
+print("update price${p1.price=50}");
 
-// setter negative
-p1.price=-40;
+
+print("invalid number:${p1.price=-40}");
 }
